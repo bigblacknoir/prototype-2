@@ -350,8 +350,9 @@ GameObject:
   m_Component:
   - component: {fileID: 400046}
   - component: {fileID: 9500000}
+  - component: {fileID: 1983428463}
   m_Layer: 0
-  m_Name: SimpleFarmer_Black
+  m_Name: SimpleFarmer_Man_01_Black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -395,6 +396,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1983428463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f948834a4ea79414db1ca48842de8742, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontalInput: 0
+  speed: 10
+  xRange: 10
+  projectilePrefab: {fileID: 5569608272496936382, guid: 6910ed657086540908514af7cd80b473,
+    type: 3}
 --- !u!1 &100974
 GameObject:
   m_ObjectHideFlags: 0
