@@ -53,10 +53,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DestroyOutOfBounds.cs" />
+     <Compile Include="Assets\Scripts\DestroyOutOfBounds.cs" />
+     <Compile Include="Assets\Scripts\DetectCollisions.cs" />
      <Compile Include="Assets\Scripts\Movefoward.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\SpawnManager.cs" />
+     <Compile Include="Assets\Scripts\SpawnManager.cs" />
      <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>/Users/game3-14/Desktop/create with code/prototype 2/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
